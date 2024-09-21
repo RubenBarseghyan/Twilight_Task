@@ -1,40 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project is a web-based application built using **Next.js** and **React** to visualize infection data, including statistics on malware distribution, operating systems, and infection timelines. It also provides domain search functionality and allows users to load more data dynamically.
 
-## Getting Started
+## Key Features
 
-First, run the development server:
+- **Domain Search**: Users can search for domains to retrieve infection data.
+- **Pie Charts**: Visualization of malware and operating system distributions.
+- **Data Cards**: Infection details presented in a card layout.
+- **Sticky "Load More" Button**: Allows users to load additional infection results dynamically.
+
+## Technologies Used
+
+- **Next.js**: Framework for server-side rendering and static site generation.
+- **React**: UI library for building user interfaces.
+- **MUI (Material-UI)**: Component library for implementing responsive UI components.
+- **Recharts**: Charting library for data visualization.
+- **Axios**: For making HTTP requests to APIs.
+
+## Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- **Node.js**: Version 14.x or higher.
+- **npm**: Version 6.x or higher, or **yarn** as an alternative package manager.
+
+## Installation and Setup
+
+Follow these steps to install and run the project on your local machine:
+
+### 1. Clone the Repository
 
 ```bash
+git clone https://github.com/RubenBarseghyan/Twilight_Task
+### 2.  Install Dependencies
+npm install
+# or
+yarn install
+### 3.  Run the Development Server
 npm run dev
 # or
 yarn dev
+
+## Open http://localhost:3000 in your browser to see the application.
+
+### 3.  Building for Production
+npm run build
 # or
-pnpm dev
+yarn build
+
+### 4.  Running the Production Build
+npm start
 # or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+yarn start
