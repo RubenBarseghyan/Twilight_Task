@@ -1,4 +1,4 @@
-This project is a web-based application built using **Next.js** and **React** to visualize infection data, including statistics on malware distribution, operating systems, and infection timelines. It also provides domain search functionality and allows users to load more data dynamically.
+This project is a web-based application built using **Next.js 14.2.13** to visualize infection data, including statistics on malware distribution, operating systems, and infection timelines. It also provides domain search functionality and allows users to load more data dynamically.
 
 ## Key Features
 
